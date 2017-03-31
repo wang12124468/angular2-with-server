@@ -1,0 +1,9 @@
+<header class="header">
+  <h1>Todos</h1>
+  <input #input
+    type="text" 
+    class="new-todo" 
+    [(ngModel)]="inputValue" 
+    (keyup.enter)="enterUp()" 
+    [placeholder]="placeholder">
+</header>

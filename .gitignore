@@ -1,0 +1,5 @@
+# 忽略todomvc下的module
+/todomvc/node_modules
+
+#忽略todomvc-server下的module
+/todomvc-server/node_modules
