@@ -11,12 +11,12 @@
 - 进入todomvc-server文件，下载依赖 `npm install`
 - 配置数据库 todomvc-server > routes > todos.js
 
-    var db = require('mysql').createConnection({
-        host: 'localhost',  // 数据库host
-        user: 'root',       // 数据库用户名
-        password: '123456', // 数据库密码
-        database: 'angular2_todomvc' // 数据库名字
-    });
+        var db = require('mysql').createConnection({
+            host: 'localhost',  // 数据库host
+            user: 'root',       // 数据库用户名
+            password: '123456', // 数据库密码
+            database: 'angular2_todomvc' // 数据库名字
+        });
 
 - 启动后端服务器 `npm start`
 
