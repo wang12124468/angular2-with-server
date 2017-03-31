@@ -1,6 +1,7 @@
 # angular2 with server
 
 技术：angular2 + ngrx + express + mysql
+
 描述：前后端分离的简单示例（如果只需要todomvc前端实现，请转到[angular2-ngrx-todomvc](https://github.com/wang12124468/angular2-todomvc)）
 
 ## 运行
